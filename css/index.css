@@ -254,6 +254,15 @@ header .header-image {
 .home .content-destination img {
   border-radius: 10px;
 }
+.home .btn {
+  background-color: #17A2B8;
+  color: white;
+  border-radius: 25px;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
 .home .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
