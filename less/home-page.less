@@ -1,3 +1,19 @@
+.header-container {
+  border-top: 2px dashed silver;
+}
+
+header {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 2px dashed silver;
+  padding-bottom: 30px;
+
+  .header-image {
+    margin-bottom: 30px;
+  }
+}
+
 .home {
 
   .content-section {
@@ -47,6 +63,10 @@
     }
   }
 
+  .btn {
+    .rounded-button(@button-bg);
+  }
+  
   .content-pick {
     padding-top: 30px;
     border-top: 2px dashed @navigation-border;
